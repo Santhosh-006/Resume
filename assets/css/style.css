@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 55%;
+    margin: 20px auto;
+    padding: 30px;
+    border: solid 1px black; 
+    font-family: "Montserrat", sans-serif;
+
+}
+
+
+
+.section{
+    display: flex;
+    padding: 10px 0;
+    
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 50%;
+
+}
+.namecontent{
+    margin: 20px;
+}
+
+
+
+.heading{
+    margin: 30px 15px; 
+    width: 25%;
+    font-weight:100;
+}
+
+
+.box1{
+    display: flex;
+}
+.content{
+    margin: 10px 20px;
+    width: 75%;
+}
+.content h1{
+    font-weight: 600;
+}
+.content h2{
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.content h4{
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.content p {
+    font-size: 15px;
+}
+.content a{
+    color: black ;
+}
+.list{
+    margin-left: 16px;
+    font-size: 15px;
+    list-style: disc;
+}
+.list1{
+    font-size: 15px;
+}
+.list1 li{
+    display: flex;
+    align-items: center;
+}
+.list1 h5{
+    margin: 5px 10px;
+    width: 25%;
+}
+.list1 p{
+    margin: 10px 10px;
+    width: 50%;
+}
+
+    
